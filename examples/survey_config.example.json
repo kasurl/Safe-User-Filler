@@ -1,0 +1,126 @@
+{
+  "surveyUrl": "请用户稍后手动填入问卷链接",
+  "name": "员工绩效考核意见调查表",
+  "returnAfterManualSubmitMs": 1500,
+  "navigation": {
+    "nextText": ["下一页", "下一步", "继续", "Next"],
+    "submitText": ["提交", "提交问卷", "完成", "Submit"]
+  },
+  "questions": [
+    {
+      "key": "Q1_work_years",
+      "title": "请问您的工作时间有多久了？",
+      "type": "radio",
+      "options": ["3年以下", "3~5年", "6~8年", "8年以上"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q2_strategy_goal_understanding",
+      "title": "您对公司的战略和目标是否了解？",
+      "type": "radio",
+      "options": ["非常了解", "比较了解", "基本了解", "不了解"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q3_assessment_purpose",
+      "title": "您认为公司进行绩效考核的目的是什么？",
+      "type": "checkbox",
+      "options": ["激励作用", "不了解/不太清楚", "绩效改进", "挖掘问题", "分配利益", "达成目标"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q4_assessment_interest",
+      "title": "您认为绩效考核制度代表了谁的利益？",
+      "type": "radio",
+      "options": ["广大员工的", "部分员工的", "不确定", "个别员工", "公司的利益"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q5_assessment_cycle_reasonable",
+      "title": "您认为公司绩效考核的周期设置合理吗？",
+      "type": "radio",
+      "options": ["非常合理", "合理", "不太合理", "完全不合理"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q6_scheme_unreasonable_parts",
+      "title": "您认为当前的“绩效考核方案”的哪些地方存在不合理？",
+      "type": "checkbox",
+      "options": ["绩效考核指标制定", "绩效考核的目的设定", "指标权重设定", "考核方法运用", "考核周期设定", "绩效面谈反馈", "考核结果运用"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q7_indicator_unreasonable_parts",
+      "title": "你认为“绩效考核指标”设定存在哪些不合理的地方？",
+      "type": "checkbox",
+      "options": ["考核指标太过繁杂", "考核指标太少", "考核指标太模糊", "不清楚", "其他"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q8_performance_evaluator",
+      "title": "您认为您的工作绩效由谁来评价比较合理？",
+      "type": "radio",
+      "options": ["部门经理", "直属领导", "自己", "同事"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q9_assessment_frequency",
+      "title": "您认为绩效考核多久进行一次最合理？",
+      "type": "radio",
+      "options": ["一月一次", "两个月一次", "一季度一次", "半年一次", "一年一次"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q10_reasonable_assessment_content",
+      "title": "您认为合理的绩效考核应该包含那些内容？",
+      "type": "checkbox",
+      "options": ["工作能力", "工作态度", "工作业绩", "团队精神", "工作效率", "工作方法", "组织纪律"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q11_work_value_reflection",
+      "title": "您认为公司当前的绩效考核能体现您实际的工作价值么？",
+      "type": "radio",
+      "options": ["都能体现", "体现较多", "多数不能体现", "完全不能体现"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q12_result_understanding_channel",
+      "title": "您通过什么途径了解自己的绩效考核结果？",
+      "type": "radio",
+      "options": ["公司公开", "部门领导传话", "试下询问", "完全不了解"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q13_result_relation",
+      "title": "您认为绩效考核的结果应该与什么相关联？",
+      "type": "checkbox",
+      "options": ["岗位异动", "奖惩", "员工培训与开发", "制度工作计划", "薪酬", "其他"],
+      "answerMode": "index",
+      "aliases": {}
+    },
+    {
+      "key": "Q14_suggestions",
+      "title": "您对公司绩效考核有什么建议或意见？",
+      "type": "textarea",
+      "options": [],
+      "answerMode": "text",
+      "aliases": {}
+    }
+  ],
+  "notes": [
+    "Q12_option_3_needs_review: 照片中可见文字为“试下询问”，已按照片原文保留，可能需要人工确认是否为“私下询问”。"
+  ]
+}
